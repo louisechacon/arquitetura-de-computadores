@@ -49,3 +49,6 @@ main:	addi $2, $0, 5
 	add $4, $0, $13
 	addi $2, $0, 1
 	syscall
+	
+	addi $2, $0, 10
+	syscall
