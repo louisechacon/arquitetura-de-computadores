@@ -25,6 +25,4 @@ main:	addi $2, $0, 5
 	syscall
 	
 	addi $2, $0, 10
-	syscall
-	
-	
+	syscall	
