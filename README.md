@@ -1,1 +1,1 @@
-"# arquitetura-de-computadores" 
+"# Resolução das listas de exercícios da disciplina Arquitetura de Computadores." 
