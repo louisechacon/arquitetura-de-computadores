@@ -6,9 +6,9 @@
 main: 
 
 # corpo do laço
-	addi $2, $0, 5
-	syscall
-      	add $8, $0, $2
+addi $2, $0, 5
+syscall
+add $8, $0, $2
 	
 teste: slt $9, $8, $0 # se numero < 0, $10 <- 1, else $10 <- 0
        bne $9, $0, fim # se é 1, então número é negativo
