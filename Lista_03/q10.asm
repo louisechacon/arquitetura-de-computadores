@@ -13,11 +13,11 @@ main: addi $2, $0, 5
 teste: beq $9, $0, fim
 
 # corpo do laço    
-div $9, $8
+div $8, $9
 mfhi $10
 
-add $9, $0, $8 # o divisor (b) passa a ser o dividendo (a)
-add $8, $0, $10 # o resto torna-se o novo divisor
+add $8, $0, $9 # o divisor (b) passa a ser o dividendo (a)
+add $9, $0, $10 # o resto torna-se o novo divisor
 j teste
 
 fim: add $4, $0, $8 # o último divisor (o resto diferente de zero antes de chegar a zero)
